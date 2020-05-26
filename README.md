@@ -5,12 +5,16 @@ import time
 
 epoch=time.time()
 
-   
 def epoc(t):
-    tdias=int (t//86400)
-    horas=int((t%86400)/3600)
-    minutos=int((t%3600)/60)
-    segundos=int((t%60))
-    print(horas,':',minutos,':',segundos,' numero de dias desde epoch',tdias)
+
+tdias=int (t//86400)
+
+horas=int((t%86400)/3600)
+
+minutos=int((t%3600)/60)
+
+segundos=int((t%60))
+
+print(horas,':',minutos,':',segundos,' numero de dias desde epoch',tdias)
     
 epoc(epoch)
